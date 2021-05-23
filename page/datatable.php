@@ -120,7 +120,6 @@ class Datatable
        catch(PDOException $e){ echo $e->getMessage().": ".$e->getCode()."<br />\nQuery: $query";  exit;}
        return $r->fetch(\PDO::FETCH_ASSOC);
     }
-    
 // end of class datatable
 }
 
