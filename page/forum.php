@@ -122,8 +122,7 @@ class Forum
     public function count_posts($topicid){
         if( $p=$this->post->getAll($topicid,"topicid") ) return count($p);
         else return 0;   
-    }
-    
+    } 
 //-----------------------------------------
 //---------- metoda prosess() -------------
 //-----------------------------------------    
